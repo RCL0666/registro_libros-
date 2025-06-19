@@ -27,3 +27,18 @@ def registrar_libro():
     }
     libros.append(libro)
     print("libro registrado correctamente. ")
+    
+def ver_catalago():
+    if not libros :
+        print("no hay libros en el catalogo")
+    else:
+        for libro in libros: 
+            print(f"codigo: {libro['codigo']}")
+            print(f"titulo: {libro['titulo']}")
+            print(f"autor: {libro['autor']}")
+            print(f"editorial: {libro['editorial']}")
+            print(f"precio: {libro['precio']}")
+            print(f"stock: {libro['stock']}")
+            
+            
+            

@@ -13,7 +13,7 @@ while True:
     if opcion == "1":
         registrar_libro()
     elif opcion == "2":
-        pass
+        ver_catalago()
     elif opcion == "3":
         pass
     elif opcion == "4":
