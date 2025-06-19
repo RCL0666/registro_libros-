@@ -63,3 +63,11 @@ def vender_libros():
         else:
             print("libro no encontrado")
             
+def ver_ventas():
+    if not ventas:
+        print("no hay ventas")
+    else:
+        for venta in ventas:
+            print(f"titulo: {venta['titulo']}")
+            print(f"precio: {venta['precio']}")
+            print(f"editorial: {venta['editorial']}")

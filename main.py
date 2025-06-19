@@ -17,7 +17,7 @@ while True:
     elif opcion == "3":
         vender_libros()
     elif opcion == "4":
-        pass
+        ver_ventas()
     elif opcion == "5":
         print("gracias por visitar la libreria virtual")
         break
