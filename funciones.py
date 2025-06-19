@@ -39,6 +39,27 @@ def ver_catalago():
             print(f"editorial: {libro['editorial']}")
             print(f"precio: {libro['precio']}")
             print(f"stock: {libro['stock']}")
-            
-            
+
+def vender_libros():
+    codigo = int(input("codigo del libro que desa comprar: "))
+    for libro in libros:
+        if libro['codigo'] == codigo:
+            print(f"titulo: {libro['titulo']}, stock: {libro['stock']}")
+            cantidad = int(input("cantidad a comprar: "))
+            if cantidad <= libro['stock']:
+                libro['stock'] -= cantidad
+                total = cantidad * libro['precio']
+                venta ={
+                    "titulo ": libro['titulo'],
+                    "precio": cantidad,
+                    "editorial": total
+                }
+                ventas.append(venta)
+                print (f" comprar realizar por ${total}")
+                return
+            else:
+                print("no hay suficiente stock")
+                return
+        else:
+            print("libro no encontrado")
             

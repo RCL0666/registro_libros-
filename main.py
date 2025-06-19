@@ -15,7 +15,7 @@ while True:
     elif opcion == "2":
         ver_catalago()
     elif opcion == "3":
-        pass
+        vender_libros()
     elif opcion == "4":
         pass
     elif opcion == "5":
