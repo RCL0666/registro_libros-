@@ -1,0 +1,22 @@
+while True:
+    print("""===libreria virtual ===
+    1. registrar libro
+    2. ver catalago
+    3. vender libro
+    4.ver ventas
+    5. salir...""")
+    
+    opcion=input(" seleccione una opcion:")
+    if opcion == "1":
+        pass
+    elif opcion == "2":
+        pass
+    elif opcion == "3":
+        pass
+    elif opcion == "4":
+        pass
+    elif opcion == "5":
+        print("gracias por visitar la libreria virtual")
+        break
+    else:
+        print("opcion incorrecta")
