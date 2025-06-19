@@ -1,3 +1,6 @@
+from funciones import *
+
+
 while True:
     print("""===libreria virtual ===
     1. registrar libro
@@ -8,7 +11,7 @@ while True:
     
     opcion=input(" seleccione una opcion:")
     if opcion == "1":
-        pass
+        registrar_libro()
     elif opcion == "2":
         pass
     elif opcion == "3":
