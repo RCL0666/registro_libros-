@@ -23,3 +23,5 @@ while True:
         break
     else:
         print("opcion incorrecta")
+        
+#ejercicio listo 
